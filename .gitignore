@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Xcode — build output
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Xcode — per-user state (window layout, breakpoints, schemes)
+xcuserdata/
+*.xcuserstate
+*.moved-aside
+
+# Swift Package Manager
+.build/
+.swiftpm/
