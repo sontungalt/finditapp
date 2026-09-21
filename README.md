@@ -1,4 +1,4 @@
-# findit
+# FindIt
 
 An app that tracks everything in the school lost and found.
 
@@ -57,18 +57,11 @@ that their owners can easily locate them.
 
 ---
 
-## 7. Development Timeline
-
-*To be filled in.*
-
----
-
 ## Download
 
-1. Click the green **Code** button at the top of this page → **Download ZIP**,
-   then unzip it.
-   (Or clone it: `git clone https://github.com/sontungalt/finditapp.git`)
-2. Open `finditapp.xcodeproj` in Xcode.
+1. Go to the [latest release](https://github.com/sontungalt/finditapp/releases/latest).
+2. Under **Assets**, click **Source code (zip)** to download it, then unzip it.
+3. Open `finditapp.xcodeproj` in Xcode.
 
 > Keep all the files in the folder together. The project won't build if the
 > files are downloaded or sent separately.
