@@ -16,12 +16,12 @@ Make an app named findit that tracks everything in the lost and found.
 
 ## 2. Team Members
 
-| Role | Name |
-| ---- | ---- |
+| Role | Name                |
+| ---- | ------------------- |
 | CEO  | Ezekiel Ong Kai Bin |
-| CTO  | Le Son Tung |
+| CTO  | Le Son Tung         |
 | CMO1 | Zerrie Fong Hui Kai |
-| CMO2 | L Akash |
+| CMO2 | L Akash             |
 
 ---
 
@@ -59,10 +59,37 @@ that their owners can easily locate them.
 
 ## 7. Development Timeline
 
-_To be filled in._
+*To be filled in.*
 
 ---
 
+## Download
+
+1. Click the green **Code** button at the top of this page → **Download ZIP**,
+   then unzip it.
+   (Or clone it: `git clone https://github.com/sontungalt/finditapp.git`)
+2. Open `finditapp.xcodeproj` in Xcode.
+
+> Keep all the files in the folder together. The project won't build if the
+> files are downloaded or sent separately.
+
 ## Running the app
 
-Open `finditapp.xcodeproj` in Xcode, pick an iOS simulator and press **⌘R**.
+1. Open `finditapp.xcodeproj` in Xcode.
+2. Pick an iPhone simulator from the device menu at the top.
+3. Press **⌘R** to build and run.
+
+### Running on a real iPhone
+
+1. Plug in your iPhone and select it from the device menu.
+2. Click the **finditapp** target → **Signing & Capabilities**.
+3. Choose your own **Team** (sign in with your Apple ID if needed).
+4. If Xcode shows a bundle ID error, change the **Bundle Identifier** to
+   something unique, e.g. `com.yourname.finditapp`.
+5. Press **⌘R**. The first time, you may need to trust the developer on your
+   iPhone under **Settings → General → VPN & Device Management**.
+
+## Requirements
+
+- A Mac with Xcode installed
+- An iPhone simulator (included with Xcode) or a real iPhone
